@@ -1,0 +1,1171 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+h1{
+    cursor: default;
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    cursor: default;
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    cursor: default;
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    cursor: default;
+    font-weight: 700;
+    line-height: 12px;
+}
+body{
+    width: 100%;
+}
+p{
+    cursor: default;
+    font-size: 16px;
+    color:whitesmoke;
+    margin: 15px 0 20px 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+#header img{
+    height: 50px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0,0,0.06);
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#{
+    display: none;
+}
+
+.pages{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.pages li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.35s ease;
+    position: relative;
+}
+.pages li a:hover,
+.pages li a.active{
+    color: rgba(255, 166, 0, 0.555);
+    cursor: pointer;
+}
+
+
+#banner{
+    background-image: url(img/heros.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+
+
+
+}
+.dark{
+    width: 100%;
+    height: 100%;
+    padding: 0% 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.479);
+}
+#banner h4{
+    cursor: default;
+    margin-bottom: 15px;
+}
+#banner h1{
+    cursor: default;
+    color:#088178;
+}
+#banner button{
+    background-image: url(img/button.png);
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.715);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    padding: 14px 80px;
+}
+#featers{
+    width: 100%;
+    margin: 30px  0px;
+    align-items: center;
+    padding: 0px 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 180px;
+    margin-bottom: 27px;
+    text-align: center;
+    padding: 30px 0px;
+    border: 1px solid lightgrey;
+    box-shadow: 20px 20px 35px rgba(0, 0,0,0.06);
+    border-radius: 10px;
+    transition: 0.5s ease;
+    background-color: #6eabda33;
+
+}
+.fbox:hover{
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.183);
+}
+.fbox img{
+    width: 100%;
+}
+.fbox h6{
+    cursor: default;
+    font-size: medium;
+    font-weight: 600;
+    color: #088178;
+    background-color: #fddde4;
+    padding: 9px 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.fbox h6:hover{
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24); */
+    cursor: default;
+}
+.fbox:nth-child(2) h6{
+    width: 100%;
+    background-color: #E2E2B6;
+}
+.fbox:nth-child(3) h6{
+    width: 100%;
+    background-color: #ffae006e;
+}
+.fbox:nth-child(4) h6{
+    width: 100%;
+    background-color:#f7dcb9b2;
+}
+.fbox:nth-child(5) h6{
+    width: 100%;
+    background-color: #b5c18e79;
+}
+.fbox:nth-child(6) h6{
+    width: 100%;
+    background-color: #deac807f;
+}
+#featured{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+
+}
+#fhead{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+
+}
+.bcontainer{
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    text-align: start;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  
+    margin-bottom: 30px;
+}
+.bcontainer:hover{
+}
+
+.box img{
+   width: 100%;
+   border-radius: 15px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 7px;
+    position: relative;
+}
+.box span{
+    cursor: default;
+    color: orange;
+    font-size: 16px;
+    /* margin-top: 50px; */
+}
+.box h5{
+    cursor: default;
+    color: #465b52;
+    font-size: 14px;
+}
+.box h4{
+    cursor: default;
+    font-size: 18px;
+    font-weight: 600;
+    color: #088179;
+}
+.box a i{
+    background-color: #308a8437;
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #1a1a1a;
+    margin-left: auto;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+
+}
+.rate i{
+    color:rgba(243, 181, 25);
+}
+
+#banner2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/banner/bb2.jpg);
+    width: 100%;
+    height: 45vh;
+    text-align: center;
+    margin: 50px 0px;
+    gap: 15px;
+    background-size: cover;
+    background-position: center;
+}
+#banner2 h2,h4{
+    cursor: default;
+    color: white;
+}
+#banner3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 55px;
+
+
+}
+.bannerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background-image: url(img/banner/b11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    height: 50vh;
+    gap: 10px;
+    box-shadow: 20px 20px 35px rgba(0, 0,0,0.06);
+}
+.bannerbox p{
+    cursor: default;
+    color: black;
+}
+.bannerbox h4{
+    cursor: default;
+    font-size: 20px;
+    font-weight: 300;
+}
+#banner3 .bb2{
+    background-image: url(img/banner/b111.jpg);
+}
+.bannerbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    background-image: url(img/banner/b12.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 30%;
+    height: 30vh;
+    gap: 10px;
+    box-shadow: 20px 20px 35px rgba(0, 0,0,0.06);
+}
+#banner3 .bb12{
+    background-image: url(img/banner/b13.jpg);
+}
+#banner3 .bb13{
+
+    background-image: url(img/banner/b14.jpg);
+}
+.bannerbox1 h2{
+    cursor: default;
+    margin-top: 80px;
+    color: black;
+    font-weight: 300;
+
+}
+.bannerbox1 h4{
+    cursor: default;
+    font-weight: 600;
+ }
+
+#getemail{
+    background-color: #021526;
+    align-items: center;
+    margin: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 55px;
+    width: 100%;
+    height: 30vh;
+ }
+ #getemail .msg h2{
+    cursor: default;
+    color: white;
+    font-weight: 500;
+ }
+ #getemail .msg p{
+    cursor: default;
+    color: rgba(255, 255, 255, 0.358);
+ }
+.emailget{
+    background-color: white;
+   border: transparent;
+    border-radius: 5px;
+ }
+.emailget input{
+    border: none;
+    padding: 15px 130px 15px 15px;
+    font-size: medium;
+    outline: none;
+    border-radius: 5px;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+
+
+}
+.emailget button{
+    font-size: medium;
+    border: none;
+    padding: 15px 20px;
+    background-color: #088178;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border-top-left-radius: 0 ;
+    border-bottom-left-radius: 0 ;
+}
+footer{
+    width: 100%;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 0 50px;
+    margin: 55px 0px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+.company i{
+    margin-right: 8px;
+}
+.company h4{
+    cursor: default;
+    color: black;
+    margin: 10px 0px;
+}
+.company p{
+    cursor: default;
+    margin: 10px 0px;
+    color: black;
+}
+.company img{
+    height: 50px;
+    width: 90px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+}
+.about h4{
+    cursor: default;
+    color: black;
+    margin: 10px 0px;
+}
+.about p{
+    cursor: default;
+
+    color: black;
+    margin:10px 0px ;
+}
+.gateway{
+    display: flex;
+}
+.gateway img{
+    height: 35px;
+    margin: 2px 0 0 0 ;
+    display: inline-block;
+}
+.gateway i{
+    font-size: 40px;
+    padding-right: 5px;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.shopmsg{
+    background-image: url(https://www.shutterstock.com/image-photo/banner-concept-minimalist-fashion-clothes-600nw-2150682299.jpg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.darkness{
+    width: 100%;
+    height:40vh ;
+    background-color: #02152658;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+.shopmsg h2{
+    cursor: default;
+    color: white;
+    font-weight: 500;
+
+}
+.shopmsg p{
+    cursor: default;
+    color: rgba(255, 255, 255, 0.639);
+}
+#nextp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+#nextp a{
+    color: white;
+    font-size: medium;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #088178;
+}
+#nextp a i{
+    font-size: 12px;
+    font-weight: 600;
+}
+#items{
+    width: 100%;
+    padding: 0 200px 0px 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.itemhead{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.itemdet{
+    margin-top: 80px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.itemdet h4{
+    cursor: default;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.itemdet h2{
+    cursor: default;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin-bottom: 0;
+
+}
+.itemdet p{
+    color:black;
+    cursor: default;
+    line-height: 22px;
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+.singleitem {
+    width: 100%;
+}
+.singleitem img{
+    width: 100%;
+}
+.itemrow{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.itbox{
+    width: 23%;
+}
+.itbox img{
+    width: 100%;
+}
+select{
+    width: 100px;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.687);
+    padding: 4px 0 4px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.addcarthead{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.quant{
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    padding-left: 5px;
+    outline: none;
+    width: 50px;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 500;
+}
+.addcarthead button{
+    padding: 10px 20px;
+    font-size: medium;
+    color: white;
+    background-color: #088178;
+    border: none;
+    border-radius: 3px;
+}
+.aboutmsg{
+    background-image: url(img/about/banner.png);
+}
+
+#aboutus{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+.aboutpic{
+    width: 50%;
+}
+.aboutpic img{
+    border-radius: 5px;
+    width: 100%;
+}
+.aboutdet{
+    padding-top: 60px;
+    width: 40%;
+}
+.aboutdet p{
+    color: #021526;
+    cursor: default;
+    font-size: 17px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+#contactus{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+    padding: 0px 55px;
+}
+.contactdet{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contactdet p {
+    cursor: default;
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 12px 0;
+}
+.contactdet h4 {
+    cursor: default;
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 12px 0;
+}
+ .cbox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    display: inline-flex;
+}
+.contactloc{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+iframe{
+    border-radius: 5px;
+}
+#contactform{
+    width: 100%;
+    padding: 30px 55px;
+}
+#contactform h1{
+    font-weight: 500;
+}
+#contactform form{
+    width: 60%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+#contactform form input{
+    height: 40px;
+    border: 2px solid lightgray;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+#contactform form textarea{
+    padding: 10px ;
+    border: 2px solid lightgray;
+    outline: none;
+    font-size: medium;
+    resize: none;
+    height: 25vh;
+
+}
+#contactform form input .dsubmit{
+    background-color: #088178;
+    width: 100px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+/* cart */
+
+#carthead{
+    margin: 40px;
+    width: 100%;
+    height: 30vh;
+    padding: 0 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.cartbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  gap: 60px;
+
+}
+.imagehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cartbox h4{
+    color: black;
+}
+.imgbox {
+    width: 70px;
+}
+.imgbox img{
+    width: 100%;
+}
+.phead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+gap: 40px;
+}
+.phead h4{
+    color: black;
+}
+.phead p{
+    color: black;
+}
+.quantbox input{
+    width: 60px;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 8px 5px 8px 10px;
+    font-size: medium;
+    outline: none;
+}
+.quanthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+gap: 50px;
+}
+.totalh{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 55px;
+}
+.copyright p{
+    color: black;
+}
+#carthead{
+    margin: none;
+}
+.tabledata p{
+    color: black;
+}
+.crthead{
+    width: 40%;
+    padding: 30px;
+    border: 2px solid lightgray;
+}
+.crthead table{
+    margin: 20px 0px;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.crthead table td{
+    width: 50px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 16px;
+}
+.crthead h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.crthead button{
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #088178;
+    color: white;
+
+}
+.crthead button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* media query */
+@media (max-width:799px) {
+
+
+
+     .activate{
+        display: flex;
+    }
+    #dropdown{
+        padding-left: 20px;
+
+    }
+    #mobile-d{
+        display: flex;
+
+    }
+    #mobile-d i{
+        font-size: 25px;
+        color: black;
+    }
+    #close{
+        font-size: 25px;
+        display: flex;
+        position: fixed;
+        top: 30px;
+    }
+    #shopbag{
+        display: none;
+    }
+
+    #banner{
+        background-position: top 25% right -120px;
+        padding:  0px 30px;
+    }
+    #banner2{
+        height: 20vh;
+    }
+    #banner3 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 30px 55px;
+    }
+    .bannerbox1{
+
+        width: 30%;
+        gap: 2px;
+
+    }
+    .bannerbox{
+        margin-bottom: 30px;
+    }
+    #getemail {
+
+        flex-wrap: wrap;
+        padding: 15px 55px;
+
+        height: 31vh;
+    }
+    /* #featers{
+        justify-content: center;
+    } */
+
+    /* single product */
+
+    #items {
+
+        padding: 15px 200px 0px 55px;
+    }
+
+    /* for about page */
+    #aboutus {
+        width: 100%;
+        margin: 30px 0px;
+        padding: 0px 55px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+    .aboutpic {
+        width: 100%;
+    }
+    .aboutdet {
+        padding-top: 8px;
+        width: 91%;
+    }
+    .about {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        color: black;
+    }
+    /* for contact page */
+    .contactdet p {
+        font-size: 16px;
+        color: #465b52;
+        margin: -11px -48px -11px 0;
+    }
+    #contactus {
+        gap: 50px;
+            /* padding: 0px 30px; */
+    }
+    .contactdet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .contactdet h2{
+        font-size: 35px;
+    }
+    .contactdet h4 {
+        font-size: 16px;
+        color: #465b52;
+        margin: 0;
+    }
+    .contactdet p {
+        font-size: 16px;
+        color: #465b52;
+        margin: -11px -48px -11px 0;
+        text-align: left;
+    }
+    .contactloc {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #carthead{
+        margin: 0;
+    }
+    .totalh{
+
+        margin-top: 28px;
+    }
+    .crthead {
+        width: 70%;
+
+    }
+/*
+    #contactform{
+        padding: 0px 30px;
+    } */
+
+}
+@media (max-width:477px) {
+  .pages{
+    display: flex;
+  }
+     #featers{
+        justify-content: center;
+    }
+    #header{
+        padding: 9px 20px;
+    }
+    #banner {
+        background-position: top 25% right -309px;
+        padding: 0px 10px;
+    }
+    h2 {
+        font-size: 32px;
+
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+        color: #222;
+    }
+    #fhead {
+       justify-content: space-between;
+        padding: 0 19px;
+    }
+    .fbox{
+        width: 150px;
+        gap: 20px;
+    }
+    .bcontainer{
+        width: 160px;
+        padding: 5px 7px;
+    }
+    #featers{
+        padding: 0px 20px;
+        gap: 25px;
+    }
+    #banner2 {
+        height: 42vh;
+    }
+    #banner3 {
+
+        justify-content: center;
+        gap: 14px;
+        padding: 13px 11px;
+    }
+    .bannerbox1{
+        padding-left: 6px;
+    margin-bottom: 18px;
+        width: 98%;
+    }
+    .bannerbox1 h2{
+        font-size: 20px;
+    }
+    #getemail{
+         padding: 8px 26px;
+        height: 31vh;
+    }
+
+    #getemail input{
+        padding: 15px 30px 15px 15px;
+    }
+
+    #main {
+        gap: 21%;
+        padding: 36px 25px;
+        margin: 55px 0px;
+    }
+
+    .company {
+        margin-bottom: 34px;
+
+    }
+    .about {
+        margin-bottom: 22px;
+    }
+    .company p {
+        margin: -1px 0px;
+        line-height: 27px;
+    }
+
+
+    /* single product */
+    #items {
+        width: 100%;
+        /* padding: 0 200px 0px 55px; */
+        padding:  20px 10px;
+        display: flex;
+        flex-direction: column;
+       gap: 0px;
+    }
+    .itemhead {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .itemdet {
+        margin-top: 32px;
+        width: 100%;
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* for about page */
+    #aboutus {
+        width: 100%;
+        margin: 30px 0px;
+        padding: 0px 14px;
+
+        flex-direction: column;
+
+    }
+    #main {
+        gap: 9%;
+        padding: -12px 50px;
+        margin: -21px 0px;
+    }
+    .company {
+        margin-bottom: -24px;
+    }
+    .shopmsg {
+
+        height: 22vh;
+
+    }
+
+    /* for contact page */
+    #contactus {
+        gap: 50px;
+        padding:  0px 60px 0px 15px;
+    }
+    .contactloc{
+        height: 35vh;
+    }
+    .contactloc iframe{
+        height: 100%;
+    }
+    .contactdet h2 {
+        display: none;
+        font-size: 20px;
+    }
+    #contactform{
+        padding:  0px 60px 0px 15px;
+    }
+    #contactform form {
+        width: 92%;
+
+    }
+    #contactform h1{
+        font-size: 27px;
+    }
+
+    /* cart */
+    .producth{
+        display: none;
+    }
+    #carthead{
+        padding: 0% 3px;
+    }
+    .totalh{
+        padding: 0;
+    }
+    .crthead {
+        margin-top: 52px;
+        padding: 17px;
+        width: 83%;
+        border: none;
+    }
+    .crthead h3{
+        font-size: 25px;
+    }
+}
